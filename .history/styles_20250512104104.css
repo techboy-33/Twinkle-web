@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #0f172a;
+  font-family: 'Inter', sans-serif;
+  color: #cbd5e1;
+  padding-top: 80px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 60px;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #0f172a;
+  z-index: 1000;
+  border-bottom: 1px solid #1f2937;
+  padding: 20px 0;
+}
+
+.nav-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero {
+  background-color: #000;
+  color: #fff;
+  width: 100%;
+  padding: 100px 0;
+}
+
+.hero-inner {
+  padding-left: 60px;
+  padding-right: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* căn trái */
+}
+
+.hero-inner h1 {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.subtitle {
+  font-size: 18px;
+  max-width: 700px;
+  margin-bottom: 40px;
+  line-height: 1.6;
+  color: #aaa;
+}
+
+/* Grid 2x2 */
+.info-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px 60px;
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.info-card {
+  background-color: #111;
+  padding: 20px 25px;
+  border-radius: 8px;
+  height: 100%; /* Đảm bảo thẻ đồng chiều cao nếu trong grid */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.info-card h3 {
+  font-size: 16px;
+  margin-bottom: 8px;
+  color: #ccc;
+}
+
+.info-card p {
+  font-size: 14px;
+  color: #aaa;
+}
+
+/* Button */
+.learn-btn {
+  background-color: #8b5cf6;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.learn-btn:hover {
+  background-color: #7c3aed;
+}
+
+/* General Info Section */
+.general-info {
+  padding: 80px 0;
+}
+
+.general-info h2 {
+  text-align: center;
+  font-size: 32px;
+  color: white;
+  margin-bottom: 40px;
+}
+
+.info-columns {
+  display: flex;
+  gap: 60px;
+  justify-content: space-between;
+}
+
+.info-columns .left,
+.info-columns .right {
+  flex: 1;
+}
+
+.info-columns p {
+  margin-bottom: 20px;
+  color: #94a3b8;
+  line-height: 24px;
+}
+
+.info-columns strong {
+  color: white;
+}
+
+/* Pitch Deck Button */
+.pitch-btn {
+  background-color: #8b5cf6;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-weight: 500;
+  border-radius: 6px;
+  margin-top: 20px;
+  cursor: pointer;
+}
