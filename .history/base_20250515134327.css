@@ -91,17 +91,3 @@ body.light-mode .find-us-card p,
 body.light-mode .contact-description {
   color: #444 !important;
 }
-
-body.light-mode .contact-form input, 
-body.light-mode .contact-form textarea{
-  background-color: #ffffff;
-}
-
-body.light-mode .contact-footer {
-  flex-direction: column;
-  align-items: center;
-  border: none;
-}
-body.light-mode .footer-brand {
-  margin-bottom: 16px;
-}

@@ -151,7 +151,7 @@
     }
 
     .news-card {
-        padding: 30px 20px;
+        padding: 26px 16px;
     }
 
     .news-card h3 {
@@ -198,17 +198,6 @@
     .form-row {
         flex-direction: column;
         gap: 10px;
-    }
-    .contact-methods {
-        display: flex;
-        flex-direction: column;
-    }
-    .contact-methods .contact-box {
-        width: 360px;
-        padding: 30px;
-    }
-    .contact-methods .contact-box p {
-        margin-top: 10px;
     }
 
     .contact-form input,

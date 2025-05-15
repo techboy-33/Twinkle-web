@@ -100,8 +100,7 @@ body.light-mode .contact-form textarea{
 body.light-mode .contact-footer {
   flex-direction: column;
   align-items: center;
-  border: none;
 }
 body.light-mode .footer-brand {
-  margin-bottom: 16px;
+  margin-bottom: 10px;
 }

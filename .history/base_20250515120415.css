@@ -11,18 +11,8 @@ body.light-mode .navbar {
   border-bottom: 1px solid #e5e7eb;
 }
 
-body.light-mode .general-info,
-body.light-mode .team-section,
-body.light-mode .contact-section,
-body.light-mode .general-info h2,
-body.light-mode .strong,
-body.light-mode .find-us-section .find-us-subtitle {
+body.light-mode .general-info {
   background-color: #f6f6f6;
-  color: #333 !important;
-}
-
-body.light-mode .general-info p {
-  color: #757576;
 }
 
 body.light-mode .navbar,
@@ -31,52 +21,34 @@ body.light-mode .icon-btn,
 body.light-mode .hamburger-menu,
 body.light-mode .text-muted-foreground,
 body.light-mode .news-section,
+body.light-mode .team-section,
 body.light-mode .find-us-section,
+body.light-mode .contact-section,
 body.light-mode .contact-footer {
   background-color: #fdf8fd !important;
   color: #111111 !important;
 }
-body.light-mode .contact-box,
-body.light-mode .info-card,
-body.light-mode .team-card,
-body.light-mode .find-us-card {
+
+body.light-mode .info-card {
+  border: none;
   background-color: #ffffff !important;
   border: 1px solid #e5e7eb !important;
-  box-shadow: none;
 }
-body.light-mode .find-us-card h3 {
-  margin: 14px 0;
-}
-body.light-mode .team-card .role{
-  margin: 10px 0;
-}
-body.light-mode .icons i {
+body.light-mode .info-card h3{
   color: #333;
 }
-
-body.light-mode .info-card h3 {
-  color: #333;
-}
-
-body.light-mode .info-card p {
+body.light-mode .info-card p{
   color: #757576;
 }
 
 body.light-mode .news-card,
+body.light-mode .team-card,
+body.light-mode .find-us-card,
 body.light-mode .contact-box,
 body.light-mode .contact-form input,
 body.light-mode .contact-form textarea {
+  background-color: #f0f0f0 !important;
   color: #111111 !important;
-}
-
-body.light-mode .news-card {
-  border: 1px solid #e4e4e4;
-  background-color: #ffffff !important;
-
-}
-
-body.light-mode .news-card p {
-  color: #757576;
 }
 
 body.light-mode a {
@@ -90,18 +62,4 @@ body.light-mode .desc,
 body.light-mode .find-us-card p,
 body.light-mode .contact-description {
   color: #444 !important;
-}
-
-body.light-mode .contact-form input, 
-body.light-mode .contact-form textarea{
-  background-color: #ffffff;
-}
-
-body.light-mode .contact-footer {
-  flex-direction: column;
-  align-items: center;
-  border: none;
-}
-body.light-mode .footer-brand {
-  margin-bottom: 16px;
 }

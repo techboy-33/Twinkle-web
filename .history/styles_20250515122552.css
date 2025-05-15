@@ -317,7 +317,7 @@ body {
   cursor: pointer;
   transition: all 0.2s ease;
 }
-.view-all-btn i {
+.view-all-btn {
   margin-left: 6px;
 }
 

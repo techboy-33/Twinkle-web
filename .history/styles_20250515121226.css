@@ -317,9 +317,6 @@ body {
   cursor: pointer;
   transition: all 0.2s ease;
 }
-.view-all-btn i {
-  margin-left: 6px;
-}
 
 .view-all-btn:hover {
   background-color: #2c2f3e;

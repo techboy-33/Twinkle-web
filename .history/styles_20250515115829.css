@@ -182,9 +182,6 @@ body {
   cursor: pointer;
   transition: background 0.3s ease;
 }
-.learn-btn i {
-  margin-left: 6px;
-}
 
 .learn-btn:hover {
   background-color: #7c3aed;
@@ -235,9 +232,6 @@ body {
   border-radius: 6px;
   margin-top: 20px;
   cursor: pointer;
-}
-.pitch-btn i {
-  margin-left: 6px;
 }
 
 /* new section */
@@ -316,9 +310,6 @@ body {
   border: 1px solid #333;
   cursor: pointer;
   transition: all 0.2s ease;
-}
-.view-all-btn i {
-  margin-left: 6px;
 }
 
 .view-all-btn:hover {

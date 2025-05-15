@@ -204,11 +204,7 @@
         flex-direction: column;
     }
     .contact-methods .contact-box {
-        width: 360px;
-        padding: 30px;
-    }
-    .contact-methods .contact-box p {
-        margin-top: 10px;
+        width: 300px;
     }
 
     .contact-form input,

@@ -32,11 +32,12 @@ body.light-mode .hamburger-menu,
 body.light-mode .text-muted-foreground,
 body.light-mode .news-section,
 body.light-mode .find-us-section,
+body.light-mode .contact-section,
 body.light-mode .contact-footer {
   background-color: #fdf8fd !important;
   color: #111111 !important;
 }
-body.light-mode .contact-box,
+
 body.light-mode .info-card,
 body.light-mode .team-card,
 body.light-mode .find-us-card {
@@ -90,18 +91,4 @@ body.light-mode .desc,
 body.light-mode .find-us-card p,
 body.light-mode .contact-description {
   color: #444 !important;
-}
-
-body.light-mode .contact-form input, 
-body.light-mode .contact-form textarea{
-  background-color: #ffffff;
-}
-
-body.light-mode .contact-footer {
-  flex-direction: column;
-  align-items: center;
-  border: none;
-}
-body.light-mode .footer-brand {
-  margin-bottom: 16px;
 }
