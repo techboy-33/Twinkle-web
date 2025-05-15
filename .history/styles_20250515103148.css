@@ -16,11 +16,6 @@ body {
   padding-top: 80px;
 }
 
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
 .navbar {
   position: fixed;
   top: 0;
@@ -216,10 +211,8 @@ body {
   line-height: 24px;
 }
 
-.info-columns .strong {
+.info-columns strong {
   color: white;
-  font-weight: 700;
-  font-size: 18px;
 }
 
 /* Pitch Deck Button */

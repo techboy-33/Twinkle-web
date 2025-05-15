@@ -109,6 +109,15 @@ body {
   display: none;
 }
 
+.main-container {
+  max-width: 1200px;
+  margin: 60px auto;
+  padding-left: 60px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+
 .hero-inner h1 {
   font-size: 56px;
   font-weight: 800;
@@ -216,10 +225,8 @@ body {
   line-height: 24px;
 }
 
-.info-columns .strong {
+.info-columns strong {
   color: white;
-  font-weight: 700;
-  font-size: 18px;
 }
 
 /* Pitch Deck Button */

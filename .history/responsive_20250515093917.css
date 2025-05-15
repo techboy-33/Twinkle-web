@@ -1,0 +1,122 @@
+/* phone styles */
+@media (max-width: 768px) {
+  .nav-inner {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  padding: 0 20px;
+}
+
+.nav-links {
+  flex-direction: column;
+  gap: 8px;
+}
+
+.nav-icons {
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.contact-btn {
+  width: 100%;
+  text-align: center;
+}
+
+/* Hero Section */
+.hero-inner {
+  padding: 0 20px;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.hero-inner h1 {
+  font-size: 36px;
+}
+
+.subtitle {
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+/* Info Grid */
+.info-grid {
+  grid-template-columns: 1fr;
+  gap: 16px;
+}
+
+/* General Info */
+.general-info {
+  padding: 40px 20px;
+}
+
+.info-columns {
+  flex-direction: column;
+  gap: 32px;
+}
+
+.pitch-btn {
+  width: 100%;
+  text-align: center;
+}
+
+/* News Section */
+.news-title,
+.news-subtitle {
+  padding-left: 0;
+  text-align: center;
+}
+
+.news-grid {
+  grid-template-columns: 1fr;
+  padding: 0 20px;
+}
+
+/* Team Section */
+.team-grid {
+  flex-direction: column;
+  align-items: center;
+}
+
+.team-card {
+  width: 100%;
+  max-width: 320px;
+}
+
+/* Find Us */
+.find-us-grid {
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.find-us-card {
+  width: 100%;
+  max-width: 320px;
+}
+
+/* Contact Section */
+.contact-form {
+  width: 100%;
+  padding: 0 10px;
+}
+
+.form-row {
+  flex-direction: column;
+}
+
+.form-row input {
+  width: 100%;
+}
+
+.send-btn {
+  width: 100%;
+}
+
+/* Footer */
+.contact-footer {
+  flex-direction: column;
+  text-align: center;
+  gap: 16px;
+}
+}

@@ -216,9 +216,9 @@ body {
   line-height: 24px;
 }
 
-.info-columns .strong {
+.info-columns strong {
   color: white;
-  font-weight: 700;
+  font-weight: 500;
   font-size: 18px;
 }
 

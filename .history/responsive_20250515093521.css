@@ -1,0 +1,8 @@
+/* phone styles */
+@media (max-width: 768px) {
+  .info-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+}

@@ -4,10 +4,6 @@
   box-sizing: border-box;
 }
 
-html, body {
-  overflow-x: hidden;
-}
-
 body {
   margin: 0;
   background-color: #0f172a;
@@ -108,6 +104,15 @@ body {
 .hamburger-menu {
   display: none;
 }
+
+.main-container {
+  max-width: 1200px;
+  margin: 60px auto;
+  padding-left: 60px;
+  display: flex;
+  justify-content: flex-start;
+}
+
 
 .hero-inner h1 {
   font-size: 56px;
@@ -216,10 +221,8 @@ body {
   line-height: 24px;
 }
 
-.info-columns .strong {
+.info-columns strong {
   color: white;
-  font-weight: 700;
-  font-size: 18px;
 }
 
 /* Pitch Deck Button */

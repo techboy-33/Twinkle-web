@@ -1,0 +1,42 @@
+@media (max-width: 768px) {
+  .nav-links,
+  .contact-btn {
+    display: none;
+  }
+
+  .hamburger-menu {
+    display: block;
+  }
+
+  .nav-inner {
+    padding: 0 20px;
+  }
+
+  .nav-right {
+    gap: 12px;
+  }
+
+  .nav-icons {
+    width: auto;
+    gap: 12px;
+  }
+
+  
+  .nav-open .nav-links {
+    display: flex;
+    flex-direction: column;
+    background-color: #1e293b;
+    position: absolute;
+    top: 70px;
+    right: 20px;
+    padding: 12px;
+    border-radius: 8px;
+    gap: 12px;
+    z-index: 1001;
+  }
+
+  .nav-open .contact-btn {
+    display: block;
+    width: 100%;
+  }
+}
