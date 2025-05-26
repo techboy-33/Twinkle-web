@@ -47,9 +47,6 @@ body.light-mode .mobile-menu.active {
   background-color: #fff;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3) !important;
 }
-body.light-mode .mobile-menu a {
-  color: #333;
-}
 
 body.light-mode .navbar,
 body.light-mode .hero,

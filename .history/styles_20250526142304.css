@@ -204,6 +204,7 @@ body {
   display: none;
   flex-direction: column;
   background-color: #111;
+  border: 1px solid #333;
   border-radius: 6px;
   position: absolute;
   top: 130%;

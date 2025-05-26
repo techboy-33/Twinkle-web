@@ -45,17 +45,11 @@ document.addEventListener('click', (e) => {
 });
 
 const menuToggle = document.getElementById('menu-toggle');
-    const mobileMenu = document.getElementById('mobileMenu');
+const mobileMenu = document.querySelector('.nav-links');
 
-    menuToggle.addEventListener('click', () => {
-        mobileMenu.classList.toggle('active');
-    });
-
-    document.addEventListener('click', (e) => {
-        if (!mobileMenu.contains(e.target) && !menuToggle.contains(e.target)) {
-            mobileMenu.classList.remove('active');
-        }
-    });
+menuToggle.addEventListener('click', () => {
+    mobileMenu.classList.toggle('active');
+});
 
 const learnBtn = document.querySelector('.learn-btn');
 const extraInfo = document.getElementById('extra-info');

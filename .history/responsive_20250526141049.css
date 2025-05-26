@@ -61,8 +61,8 @@
         right: 44%;
     }
 
-    .mobile-menu.active{
-        display: flex;
+    .mobile-menu .active{
+        display: none;
     }
     .mobile-menu {
         display: none;

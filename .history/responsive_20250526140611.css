@@ -61,11 +61,8 @@
         right: 44%;
     }
 
-    .mobile-menu.active{
-        display: flex;
-    }
     .mobile-menu {
-        display: none;
+        display: none !important;
     }
 
     /* hero */

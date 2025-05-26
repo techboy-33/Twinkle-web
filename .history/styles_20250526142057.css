@@ -203,19 +203,19 @@ body {
 .mobile-menu {
   display: none;
   flex-direction: column;
-  background-color: #111;
-  border-radius: 6px;
+  background-color: #333;
+  color: #fff;
   position: absolute;
   top: 130%;
   right: 4%;
   padding: 6px;
-  box-shadow: 0 4px 12px rgb(193 190 190 / 30%);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.215);
   z-index: 1000;
 }
 
 .mobile-menu a {
   text-decoration: none;
-  color: #fff;
   padding: 14px 16px;
   cursor: pointer;
 }

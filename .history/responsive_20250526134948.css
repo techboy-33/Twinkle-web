@@ -61,13 +61,6 @@
         right: 44%;
     }
 
-    .mobile-menu.active{
-        display: flex;
-    }
-    .mobile-menu {
-        display: none;
-    }
-
     /* hero */
     .hero {
         padding: 80px 0;
@@ -107,7 +100,7 @@
     }
 
     .extra-content .info-card {
-        padding: 20px 30px;
+        padding: 20px;
     }
 
     /* General  Info Section */

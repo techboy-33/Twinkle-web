@@ -62,7 +62,7 @@
     }
 
     .mobile-menu.active{
-        display: flex;
+        display: none;
     }
     .mobile-menu {
         display: none;
