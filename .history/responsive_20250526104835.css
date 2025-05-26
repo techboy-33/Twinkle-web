@@ -2,6 +2,7 @@
 
     .navbar {
         width: 100vw;
+        overflow-x: hidden;
     }
 
     .nav-links,
@@ -55,9 +56,6 @@
     .nav-open .contact-btn {
         display: block;
         width: 100%;
-    } 
-    .language-menu {
-        right: 44%;
     }
 
     /* hero */
@@ -91,10 +89,6 @@
     .learn-btn {
         font-size: 14px;
         padding: 10px 24px;
-    }
-    #extra-info {
-        padding: 0 26px;
-        font-size: 16px;
     }
 
     /* General  Info Section */

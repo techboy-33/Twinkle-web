@@ -12,7 +12,7 @@ body.light-mode .navbar {
 }
 
 body.light-mode .language-menu {
-  background-color: #fdf8fd;
+  background-color: #ffffff;
   border: 1px solid #e5e7eb;
 }
 
@@ -33,14 +33,9 @@ body.light-mode .find-us-section .find-us-subtitle {
   background-color: #f6f6f6;
   color: #333 !important;
 }
-
 body.light-mode .nav-links a,
 body.light-mode .general-info p {
   color: #757576;
-}
-
-body.light-mode .language-menu{
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3) !important;
 }
 
 body.light-mode .navbar,
@@ -54,12 +49,6 @@ body.light-mode .contact-footer {
   background-color: #fdf8fd !important;
   color: #111111 !important;
 }
-
-body.light-mode .news-meta button {
-  background-color: #ffffff;
-  color: #8b5cf6;
-}
-
 body.light-mode .contact-box,
 body.light-mode .info-card,
 body.light-mode .team-card,
@@ -68,15 +57,12 @@ body.light-mode .find-us-card {
   border: 1px solid #e5e7eb !important;
   box-shadow: none;
 }
-
 body.light-mode .find-us-card h3 {
   margin: 14px 0;
 }
-
-body.light-mode .team-card .role {
+body.light-mode .team-card .role{
   margin: 10px 0;
 }
-
 body.light-mode .icons i {
   color: #333;
 }
@@ -102,12 +88,6 @@ body.light-mode .news-card {
 
 }
 
-body.light-mode .extra-content p,
-body.light-mode .extra-content h2,
-body.light-mode .extra-content li {
-  color: #333;
-}
-
 body.light-mode .news-card p {
   color: #757576;
 }
@@ -125,15 +105,11 @@ body.light-mode .contact-description {
   color: #444 !important;
 }
 
-body.light-mode .contact-form input,
-body.light-mode .contact-form textarea {
+body.light-mode .contact-form input, 
+body.light-mode .contact-form textarea{
   background-color: #ffffff;
 }
 
 body.light-mode .footer-brand {
   margin-bottom: 16px;
-}
-
-body.light-mode .contact-footer {
-  border-top: 1px solid #e4e4e4;
 }

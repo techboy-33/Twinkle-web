@@ -40,7 +40,7 @@ body.light-mode .general-info p {
 }
 
 body.light-mode .language-menu{
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3) !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 }
 
 body.light-mode .navbar,

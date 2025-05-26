@@ -39,10 +39,6 @@ body.light-mode .general-info p {
   color: #757576;
 }
 
-body.light-mode .language-menu{
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3) !important;
-}
-
 body.light-mode .navbar,
 body.light-mode .hero,
 body.light-mode .icon-btn,

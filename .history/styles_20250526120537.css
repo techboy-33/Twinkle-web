@@ -9,10 +9,6 @@ body {
   overflow-x: hidden;
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
 body {
   margin: 0;
   background-color: #0f172a;
@@ -99,11 +95,9 @@ body {
 #show-less-btn:hover {
   background-color: #6d28d9;
 }
-
 .logo-container {
-  text-decoration: none;
+  text-decoration: ;
 }
-
 .logo {
   font-size: 20px;
   font-weight: 700;
@@ -159,7 +153,6 @@ body {
   display: none;
   z-index: 1000;
   min-width: 120px;
-  box-shadow: 0 4px 12px rgb(193 190 190 / 30%);
 }
 
 .language-menu li {
@@ -191,7 +184,6 @@ body {
   font-size: 14px;
   cursor: pointer;
 }
-
 .contact-btn:hover {
   background-color: #7a3fdd;
 }
@@ -283,7 +275,7 @@ body {
 
 /* General Info Section */
 .general-info {
-  padding: 100px 140px;
+  padding: 80px 140px;
 }
 
 .general-info h2 {
@@ -336,7 +328,7 @@ body {
 .news-section {
   background-color: #0f1117;
   color: #fff;
-  padding: 100px 20px;
+  padding: 60px 20px;
 }
 
 .news-title {
@@ -440,7 +432,7 @@ body {
 
 /* team section */
 .team-section {
-  padding: 6rem 1rem;
+  padding: 4rem 1rem;
   background-color: #0f121e;
   color: white;
   text-align: center;
@@ -532,11 +524,9 @@ body {
   margin-bottom: 50px;
   font-size: 1rem;
 }
-
 .find-us-grid a {
   text-decoration: none;
 }
-
 .find-us-grid {
   display: flex;
   flex-wrap: wrap;
@@ -602,7 +592,7 @@ body {
 .contact-section {
   background-color: #1a222e;
   color: #fff;
-  padding: 60px 20px;
+  padding: 60px 20px 20px;
   font-family: 'Inter', sans-serif;
 }
 

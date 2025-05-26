@@ -39,10 +39,6 @@ body.light-mode .general-info p {
   color: #757576;
 }
 
-body.light-mode .language-menu{
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3) !important;
-}
-
 body.light-mode .navbar,
 body.light-mode .hero,
 body.light-mode .icon-btn,
@@ -53,11 +49,6 @@ body.light-mode .find-us-section,
 body.light-mode .contact-footer {
   background-color: #fdf8fd !important;
   color: #111111 !important;
-}
-
-body.light-mode .news-meta button {
-  background-color: #ffffff;
-  color: #8b5cf6;
 }
 
 body.light-mode .contact-box,
@@ -103,7 +94,6 @@ body.light-mode .news-card {
 }
 
 body.light-mode .extra-content p,
-body.light-mode .extra-content h2,
 body.light-mode .extra-content li {
   color: #333;
 }

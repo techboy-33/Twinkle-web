@@ -9,10 +9,6 @@ body {
   overflow-x: hidden;
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
 body {
   margin: 0;
   background-color: #0f172a;
@@ -55,53 +51,49 @@ body {
 }
 
 #extra-info {
-  padding: 0 20%;
-  color: #ffffff;
-  line-height: 1.6;
-  font-size: 18px;
+    padding: 0 20%;
+    color: #ffffff;
+    line-height: 1.6;
+    font-size: 18px;
 }
 
 
 #extra-info h2 {
-  font-size: 1.5em;
-  font-weight: 600;
-  margin-top: 20px;
-  margin-bottom: 10px;
+    font-size: 1.5em;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 
 #extra-info ul {
-  margin-left: 20px;
-  margin-top: 10px;
-  list-style-type: disc;
+    margin-left: 20px;
+    margin-top: 10px;
+    list-style-type: disc;
 }
 
 #extra-info li {
-  margin-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 
 #show-less-btn {
-  background-color: #7c3aed;
-  color: #fff;
-  border: none;
-  padding: 12px 24px;
-  border-radius: 8px;
-  cursor: pointer;
-  margin-top: 56px;
-  font-size: 16px;
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  transition: background-color 0.3s ease;
+    background-color: #7c3aed;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 56px;
+    font-size: 16px;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    transition: background-color 0.3s ease;
 }
 
 #show-less-btn:hover {
-  background-color: #6d28d9;
-}
-
-.logo-container {
-  text-decoration: none;
+    background-color: #6d28d9;
 }
 
 .logo {
@@ -159,7 +151,6 @@ body {
   display: none;
   z-index: 1000;
   min-width: 120px;
-  box-shadow: 0 4px 12px rgb(193 190 190 / 30%);
 }
 
 .language-menu li {
@@ -190,10 +181,6 @@ body {
   font-weight: 600;
   font-size: 14px;
   cursor: pointer;
-}
-
-.contact-btn:hover {
-  background-color: #7a3fdd;
 }
 
 .hamburger-menu {
@@ -231,7 +218,6 @@ body {
   flex-direction: column;
   gap: 8px;
 }
-
 .extra-content .info-card {
   padding: 24px 40px;
 }
@@ -283,7 +269,7 @@ body {
 
 /* General Info Section */
 .general-info {
-  padding: 100px 140px;
+  padding: 80px 140px;
 }
 
 .general-info h2 {
@@ -336,7 +322,7 @@ body {
 .news-section {
   background-color: #0f1117;
   color: #fff;
-  padding: 100px 20px;
+  padding: 60px 20px;
 }
 
 .news-title {
@@ -371,11 +357,11 @@ body {
 .news-card h3 {
   font-size: 1.1rem;
   font-weight: 600;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .news-card p {
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1.5;
   color: #ccc;
 }
@@ -389,30 +375,27 @@ body {
   color: #888;
 }
 
-.news-meta button {
+/* .news-meta button {
   color: #a78bfa;
   background-color: #181b22;
   border: none;
   cursor: pointer;
   text-decoration: none;
   font-weight: 500;
-}
+} */
 
-.extra-content a {
-  color: #ffffff;
+.toggle-btn {
+  color: #a78bfa;
   background: none;
-  border: 1px solid #888;
+  border: 1px solid #a78bfa;
   padding: 5px 12px;
   border-radius: 8px;
   cursor: pointer;
   font-size: 0.85rem;
-  text-decoration: none;
-  margin: 30px 0 8px 0;
-  display: inline-block;
 }
 
-.extra-content a:hover {
-  background-color: rgba(204, 204, 204, 0.1);
+.toggle-btn:hover {
+  
 }
 
 .view-all-wrapper {
@@ -440,7 +423,7 @@ body {
 
 /* team section */
 .team-section {
-  padding: 6rem 1rem;
+  padding: 4rem 1rem;
   background-color: #0f121e;
   color: white;
   text-align: center;
@@ -533,10 +516,6 @@ body {
   font-size: 1rem;
 }
 
-.find-us-grid a {
-  text-decoration: none;
-}
-
 .find-us-grid {
   display: flex;
   flex-wrap: wrap;
@@ -569,7 +548,6 @@ body {
   font-size: 1.1rem;
   font-weight: 600;
   margin-bottom: 5px;
-  color: #ffffff;
 }
 
 .find-us-card p {
@@ -602,7 +580,7 @@ body {
 .contact-section {
   background-color: #1a222e;
   color: #fff;
-  padding: 60px 20px;
+  padding: 60px 20px 20px;
   font-family: 'Inter', sans-serif;
 }
 
@@ -645,8 +623,6 @@ body {
   flex-direction: column;
   flex: 1;
   align-items: center;
-  cursor: pointer;
-  text-decoration: none;
 }
 
 .contact-box i {

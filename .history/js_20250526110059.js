@@ -2,33 +2,16 @@
 const toggleBtn = document.getElementById('theme-toggle');
 const icon = toggleBtn.querySelector('i');
 
-function updateIcon(isLightMode) {
-    if (isLightMode) {
+toggleBtn.addEventListener('click', () => {
+    document.body.classList.toggle('light-mode');
+
+    if (document.body.classList.contains('light-mode')) {
         icon.classList.remove('fa-sun');
         icon.classList.add('fa-moon');
     } else {
         icon.classList.remove('fa-moon');
         icon.classList.add('fa-sun');
     }
-}
-
-window.addEventListener('DOMContentLoaded', () => {
-    const savedTheme = localStorage.getItem('theme');
-
-    if (savedTheme === 'light') {
-        document.body.classList.add('light-mode');
-        updateIcon(true);
-    } else {
-        document.body.classList.remove('light-mode');
-        updateIcon(false);
-    }
-});
-
-toggleBtn.addEventListener('click', () => {
-    const isLight = document.body.classList.toggle('light-mode');
-    updateIcon(isLight);
-
-    localStorage.setItem('theme', isLight ? 'light' : 'dark');
 });
 
 const languageToggle = document.getElementById('language-toggle');
@@ -63,14 +46,12 @@ document.addEventListener('DOMContentLoaded', function () {
 
     toggleButtons.forEach(button => {
         button.addEventListener('click', function () {
-            const card = button.closest('.news-card');
-            const summary = card.querySelector('.summary');
-            const extra = card.querySelector('.extra-content');
+            const newsCard = button.closest('.news-card');
+            const extraContent = newsCard.querySelector('.extra-content');
 
-            const isExpanded = extra.style.display === 'block';
-            extra.style.display = isExpanded ? 'none' : 'block';
-            summary.style.display = isExpanded ? 'block' : 'none';
-            button.textContent = isExpanded ? 'Read More' : 'Show Less';
+            const isVisible = extraContent.style.display === 'block';
+            extraContent.style.display = isVisible ? 'none' : 'block';
+            button.textContent = isVisible ? 'Read More' : 'Show Less';
         });
     });
 });
